@@ -24,10 +24,13 @@
 >Creates the JVM and ensures dependencies are available to your Java programs 
 >software layer that runs on top of your OS and provides class libraries and other resources that a specific Java program needs to run 
 - What's the name for the code written in .class files?
+>bytecode which is instructions for the JVM
 - How does Scala relate to Java?
+>Scala is built on top of Java and therefore use JVM
 - What is sbt (high level)?
+>Scala build tool
 - How does Scala relate to the JRE and JVM?
-
+> JRE allows compile of scala code into bytecode which is translated by JVM to run actual program
 
 - Is Scala statically or dynamically typed?
 - Do we need to declare type for our variables in Scala? always?
